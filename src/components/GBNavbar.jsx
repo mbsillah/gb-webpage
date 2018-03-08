@@ -5,7 +5,7 @@ import { Navbar, NavItem, Nav } from 'react-bootstrap'
 
 const GBNavbar = () => {
     return (
-        <Navbar inverse collapseOnSelect>
+        <Navbar inverse collapseOnSelect fixedTop={true}>
             <Navbar.Header>
                 <Navbar.Brand>
                     <a href="/">Gwinnett Brawl</a>
