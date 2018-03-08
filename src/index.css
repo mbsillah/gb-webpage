@@ -4,3 +4,7 @@ body {
   font-family: sans-serif;
   background-color: black;
 }
+
+#carouselPic:hover {
+  opacity: 0.8;
+}
