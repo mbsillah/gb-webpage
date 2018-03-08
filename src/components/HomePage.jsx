@@ -1,9 +1,11 @@
 import React from 'react';
+import GBCarousel from './GBCarousel'
 
 const HomePage = () => {
     return (
         <div>
-            <h1>Gwinnett Brawl</h1>
+            <h1>Welcome to the Dojo!</h1>
+            <GBCarousel />
         </div>
     );
 };
