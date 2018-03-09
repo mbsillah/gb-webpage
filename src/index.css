@@ -5,6 +5,7 @@ body {
   background-color: black;
 }
 
-#carouselPic:hover {
+
+.carouselPic:hover {
   opacity: 0.8;
 }
