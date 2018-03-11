@@ -31,7 +31,7 @@ const GBCarousel = () => {
                 <Carousel.Item>
                     <img className="carouselPic" alt="The Road to FR" src={gbAd} />
                     <Carousel.Caption className="carouselText">
-                        <h3>"The Road to ..."" Series</h3>
+                        <h3>"The Road to ..." Series</h3>
                         <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
                     </Carousel.Caption>
                 </Carousel.Item>

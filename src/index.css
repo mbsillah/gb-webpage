@@ -5,6 +5,15 @@ body {
   background-color: black;
 }
 
+h1, h2, h3 {
+  text-align: center;
+}
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+
+}
 
 .carouselPic:hover {
   opacity: 0.8;
