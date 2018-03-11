@@ -3,10 +3,15 @@ body {
   padding-top: 40px;
   font-family: sans-serif;
   background-color: black;
+  text-decoration-color: white;
 }
 
-h1, h2, h3 {
+h1, h2 {
   text-align: center;
+}
+
+h1, h2, p {
+  color: white;
 }
 
 .img-fluid {

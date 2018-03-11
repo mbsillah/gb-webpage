@@ -3,6 +3,10 @@ import gb01 from '../imgs/gb01.jpg'
 import gb02 from '../imgs/gb02.jpg'
 import styled from 'styled-components'
 
+const DescriptionStyle = styled.div`
+    
+`
+
 const Description = () => {
     return (
         <div>
