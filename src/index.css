@@ -5,11 +5,11 @@ body {
   background-color: #111820;
 }
 
-h1, h2 {
+h1, h2, h3 {
   text-align: center;
 }
 
-h1, h2, p {
+h1, h2, h3, p {
   color: white;
 }
 
@@ -21,4 +21,9 @@ h1, h2, p {
 
 .carouselPic:hover {
   opacity: 0.8;
+}
+
+.fa {
+  font-size: 40px;
+  color: white;
 }
