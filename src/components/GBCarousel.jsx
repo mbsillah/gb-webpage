@@ -8,8 +8,6 @@ const CarouselStyle = styled.div`
     justify-content: center;
 `
 
-//920 × 642
-
 const GBCarousel = () => {
     return (
         <CarouselStyle>
