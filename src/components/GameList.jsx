@@ -9,10 +9,13 @@ import tekken7 from '../imgs/tekken7.png'
 
 const GameListStyle = styled.div`
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 `
 
 const GameList = () => {
     return (
+        <div>
         <GameListStyle>
             <img src={mvci} alt="Marvel vs Capcom: Infinite"/>
             <img src={dbfz} alt="Dragon Ball FighterZ"/>
@@ -20,6 +23,7 @@ const GameList = () => {
             <img src={smash4} alt="Super Smash Bros. for Wii U"/>
             <img src={tekken7} alt="Tekken 7"/>
         </GameListStyle>
+        </div>
     );
 };
 
