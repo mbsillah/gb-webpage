@@ -16,7 +16,7 @@ const IconStyle = styled.div`
 
 const Footer = () => {
     return (
-        <div>
+        <div className="jumbotron jumbotron-fluid">
             <h3>Follow us on: </h3>
             <IconStyle>
                 <ul>

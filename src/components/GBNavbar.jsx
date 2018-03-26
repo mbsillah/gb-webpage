@@ -16,10 +16,6 @@ const GBNavbar = () => {
                     <NavItem eventKey={1} href="/about">
                         About
                     </NavItem>
-                    <NavItem eventKey={2} href="/contact">
-                        Contact
-                     </NavItem>
-
                 </Nav>
             </Navbar.Collapse>
         </Navbar>

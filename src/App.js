@@ -4,7 +4,7 @@ import HomePage from './components/HomePage'
 import GBNavbar from './components/GBNavbar'
 import Footer from './components/Footer'
 import About from './components/About'
-import Contact from './components/Contact'
+
 
 class App extends Component {
   render() {
@@ -15,7 +15,6 @@ class App extends Component {
         <Switch>
           <Route exact path='/' component={HomePage} />
           <Route exact path='/about' component={About} />
-          <Route exact path='/contact' component={Contact} />
         </Switch>
         <Footer />
         </div>
